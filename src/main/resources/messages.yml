@@ -1,0 +1,5 @@
+Location_Format: |-
+  §e Location §7- §6§lCOMMANDS
+  §f   /location§e add §7- §fCreate new location
+  §f   /location§e clear §7- §fDelete all locations
+  §f   /location§e list §7- §fSend all locations
