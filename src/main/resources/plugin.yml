@@ -2,8 +2,8 @@ name: DontFall
 description: Una core de dontfall
 author: iChocoMilk_
 main: ichoco.dontfall.DontFall_Main
-version: 1.0
+version: 1.1
 
 commands:
   location:
-    description: "Todos los commandos de location"
+    description: "§fTodos los commandos de §6location"

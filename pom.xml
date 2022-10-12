@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
     
     <!-- Project information -->
-    <groupId>ichoco.badprison</groupId>
-    <artifactId>BadPrisonCore</artifactId>
+    <groupId>ichoco.dontfall</groupId>
+    <artifactId>DontFall</artifactId>
     <packaging>jar</packaging>
 
     <!-- Plugin Information -->
-    <name>BadPrison</name>
-    <description>A basic prisoncore</description>
+    <name>DontFall</name>
+    <description>A basic dontfallcore</description>
     <version>1.0</version>
     
     <properties>
@@ -21,10 +21,6 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
     </repositories>
 
     <!-- Dependencies imports -->
@@ -33,12 +29,6 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.8.8-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.github.MilkBowl</groupId>
-            <artifactId>VaultAPI</artifactId>
-            <version>1.7</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
