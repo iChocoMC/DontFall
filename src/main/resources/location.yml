@@ -1,5 +1,7 @@
-strong:
-  - 0,60,0,naturaleza
-
 heal:
-  - 0,60,0,naturaleza
+  - 0,60,0,world
+  - 1,60,1,world
+
+strength:
+  - 0,60,1,world
+  - 1,60,0,world

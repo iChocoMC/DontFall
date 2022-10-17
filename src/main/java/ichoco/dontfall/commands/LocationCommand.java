@@ -23,27 +23,19 @@ public class LocationCommand implements CommandExecutor {
             player.sendMessage(Messages.Location_Format);
             return true; 
         }
+        Location playerLocation = player.getLocation();                
 
         switch (args[0]){
-            case "add":
-                Location playerLocation = player.getLocation();                
-                String locString =
-                playerLocation.getBlockX() + ", " + playerLocation.getBlockY() + ", " + playerLocation.getBlockZ();
-                if (args.length == 2){
-                    switch(args[2]){
-                        case "strong": 
-                            LocationUtil.addLocation_Strong(playerLocation);
-                            player.sendMessage("Location añadida en: §e" + locString);
-                        break;
-
-                        case "heal": 
-                            LocationUtil.addLocation_Heal(playerLocation);
-                            player.sendMessage("Location añadida en: §e" + locString);
-                        break;
-
-                        default: player.sendMessage("§&4&lERROR: §cSolo para los mundos: Naturaleza y puente");
-                    }
-                }
+            case "heal":
+                LocationUtil.addLocation_Heal(playerLocation);
+                player.sendMessage("Location añadida en: §e" + 
+                playerLocation.getBlockX() + ", " + playerLocation.getBlockY() + ", " + playerLocation.getBlockZ());
+            break;
+            
+            case "strength":
+                LocationUtil.addLocation_Strength(playerLocation);
+                player.sendMessage("Location añadida en: §e" + 
+                playerLocation.getBlockX() + ", " + playerLocation.getBlockY() + ", " + playerLocation.getBlockZ());
         }
         return false;
     }

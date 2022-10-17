@@ -3,3 +3,21 @@ Location_Format:
   - "&f   /location&e add &7- &fCreate new location"
   - "&f   /location&e clear &7- &fDelete all locations"
   - "&f   /location&e list &7- &fSend all locations"
+
+Golden_Apple:
+  - "" 
+  - "&f &b&lVELOCIDAD 2 &8| &a&lACTIVA"
+  - ""
+  - "&f Debido a tu poca vida,"
+  - "&f Se te dio &bvelocidad"
+  - "&f Por unos &b5 &fsegundos."
+  - ""
+
+Golden_Head:
+  - ""
+  - "&f &6&lGOLDENHEAD &8| &e&lACTIVA"
+  - ""
+  - "&f Absorcion &61&f: &e10 &7segundos"
+  - "&f Regeneraci&62&f: &e10 &7segundos"
+  - "&f Velocidad &63&f: &e10 &7segundos"
+  - ""
